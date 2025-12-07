@@ -462,8 +462,6 @@ GameObject:
   - component: {fileID: 2299865506845732660}
   - component: {fileID: 1552001954280868747}
   - component: {fileID: 4478644240881778890}
-  - component: {fileID: 1604747516271470541}
-  - component: {fileID: 1844019220553898910}
   m_Layer: 0
   m_Name: Space_Soldier
   m_TagString: Untagged
@@ -563,38 +561,6 @@ CapsuleCollider:
   m_Height: 2.7269456
   m_Direction: 1
   m_Center: {x: 0, y: 0.8634728, z: 0}
---- !u!114 &1604747516271470541
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1736382919470187229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce7a80d520cacc042b5fe14f373d8173, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter
-  m_MovingTurnSpeed: 360
-  m_StationaryTurnSpeed: 180
-  m_JumpPower: 12
-  m_GravityMultiplier: 2
-  m_RunCycleLegOffset: 0.2
-  m_MoveSpeedMultiplier: 1
-  m_AnimSpeedMultiplier: 1
-  m_GroundCheckDistance: 0.1
---- !u!114 &1844019220553898910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1736382919470187229}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 521b611700410be45810047f0a74e899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::UnityStandardAssets.Characters.ThirdPerson.ThirdPersonUserControl
 --- !u!1 &1854132372634141360
 GameObject:
   m_ObjectHideFlags: 0
